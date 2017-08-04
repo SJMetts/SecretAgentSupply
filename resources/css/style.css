@@ -5,10 +5,17 @@ html{
 	/*display:block;*/
 }
 
-#container{
-	max-width:960px;
-	margin: 0 auto;
+
+header > .logo,
+header > .main-header,
+header > nav,
+main,
+footer
+{
+	padding-left: calc( 50% - 480px );
+	padding-right: calc( 50% - 480px );
 }
+
 
 .logo{
 	display:flex;
@@ -146,9 +153,6 @@ footer{
 
 @media only screen and (max-width:1024px){
 
-	#container{
-		width:100%;
-	}
 
 	#glasses{
 		display:none;
